@@ -20,7 +20,6 @@
 		730D990D275C0AAB0034CEFD /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 730D990B275C0AAA0034CEFD /* labels.txt */; };
 		730D990E275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */; };
 		730D9910275C0C940034CEFD /* PixelBufferExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */; };
-		730D9912275C4AF20034CEFD /* aiy_plants_V1_labelmap.csv in Resources */ = {isa = PBXBuildFile; fileRef = 730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */; };
 		9A41F2E5733417E822CA6E2C /* Pods_TensorFlowLiteiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C01C515107FD1650FA1DF /* Pods_TensorFlowLiteiOS.framework */; };
 		C5D352EC1FF65A9CA00FA17B /* Pods_TensorFlowLiteiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98440FB81D41BCE28832291 /* Pods_TensorFlowLiteiOSTests.framework */; };
 /* End PBXBuildFile section */
@@ -62,9 +61,6 @@
 		730D990B275C0AAA0034CEFD /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
 		730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_quant_v1_224.tflite; sourceTree = "<group>"; };
 		730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBufferExtensions.swift; sourceTree = "<group>"; };
-		730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aiy_plants_V1_labelmap.csv; sourceTree = "<group>"; };
-		730D9913275C4B1E0034CEFD /* lite-model_aiy_vision_classifier_plants_V1_3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lite-model_aiy_vision_classifier_plants_V1_3.tflite"; sourceTree = "<group>"; };
-		730D9914275C503A0034CEFD /* food_V1_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = food_V1_1.tflite; sourceTree = "<group>"; };
 		A98440FB81D41BCE28832291 /* Pods_TensorFlowLiteiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorFlowLiteiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97E89755A2739097C4759E /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CA6C01C515107FD1650FA1DF /* Pods_TensorFlowLiteiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorFlowLiteiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,9 +127,6 @@
 				730D98DF275C0A240034CEFD /* ViewController.swift */,
 				730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */,
 				730D990B275C0AAA0034CEFD /* labels.txt */,
-				730D9914275C503A0034CEFD /* food_V1_1.tflite */,
-				730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */,
-				730D9913275C4B1E0034CEFD /* lite-model_aiy_vision_classifier_plants_V1_3.tflite */,
 				730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */,
 				730D98E1275C0A240034CEFD /* Main.storyboard */,
 				730D98E4275C0A250034CEFD /* Assets.xcassets */,
@@ -295,7 +288,6 @@
 				730D98E5275C0A250034CEFD /* Assets.xcassets in Resources */,
 				730D98E3275C0A240034CEFD /* Main.storyboard in Resources */,
 				730D990D275C0AAB0034CEFD /* labels.txt in Resources */,
-				730D9912275C4AF20034CEFD /* aiy_plants_V1_labelmap.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

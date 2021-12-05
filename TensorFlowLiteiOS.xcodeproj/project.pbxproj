@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AC6E1F2B38F3B8E67F1F139 /* Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4D03FD6AC65708525FE780 /* Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework */; };
 		730D98DC275C0A240034CEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98DB275C0A240034CEFD /* AppDelegate.swift */; };
 		730D98DE275C0A240034CEFD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98DD275C0A240034CEFD /* SceneDelegate.swift */; };
 		730D98E0275C0A240034CEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98DF275C0A240034CEFD /* ViewController.swift */; };
@@ -16,6 +17,12 @@
 		730D98F3275C0A250034CEFD /* TensorFlowLiteiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98F2275C0A250034CEFD /* TensorFlowLiteiOSTests.swift */; };
 		730D98FD275C0A250034CEFD /* TensorFlowLiteiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98FC275C0A250034CEFD /* TensorFlowLiteiOSUITests.swift */; };
 		730D98FF275C0A250034CEFD /* TensorFlowLiteiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D98FE275C0A250034CEFD /* TensorFlowLiteiOSUITestsLaunchTests.swift */; };
+		730D990D275C0AAB0034CEFD /* labels.txt in Resources */ = {isa = PBXBuildFile; fileRef = 730D990B275C0AAA0034CEFD /* labels.txt */; };
+		730D990E275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite in Resources */ = {isa = PBXBuildFile; fileRef = 730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */; };
+		730D9910275C0C940034CEFD /* PixelBufferExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */; };
+		730D9912275C4AF20034CEFD /* aiy_plants_V1_labelmap.csv in Resources */ = {isa = PBXBuildFile; fileRef = 730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */; };
+		9A41F2E5733417E822CA6E2C /* Pods_TensorFlowLiteiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6C01C515107FD1650FA1DF /* Pods_TensorFlowLiteiOS.framework */; };
+		C5D352EC1FF65A9CA00FA17B /* Pods_TensorFlowLiteiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A98440FB81D41BCE28832291 /* Pods_TensorFlowLiteiOSTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0382BADD02C83AF27E9288C1 /* Pods-TensorFlowLiteiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOS.release.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOS/Pods-TensorFlowLiteiOS.release.xcconfig"; sourceTree = "<group>"; };
+		4C454FC4F92C8C4A8954B0E9 /* Pods-TensorFlowLiteiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOSTests.debug.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOSTests/Pods-TensorFlowLiteiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		503E19D03D8A1A3872A6AA2A /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		730D98D8275C0A240034CEFD /* TensorFlowLiteiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TensorFlowLiteiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		730D98DB275C0A240034CEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		730D98DD275C0A240034CEFD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,18 @@
 		730D98F8275C0A250034CEFD /* TensorFlowLiteiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TensorFlowLiteiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		730D98FC275C0A250034CEFD /* TensorFlowLiteiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensorFlowLiteiOSUITests.swift; sourceTree = "<group>"; };
 		730D98FE275C0A250034CEFD /* TensorFlowLiteiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TensorFlowLiteiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		730D990B275C0AAA0034CEFD /* labels.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = labels.txt; sourceTree = "<group>"; };
+		730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = mobilenet_quant_v1_224.tflite; sourceTree = "<group>"; };
+		730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixelBufferExtensions.swift; sourceTree = "<group>"; };
+		730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = aiy_plants_V1_labelmap.csv; sourceTree = "<group>"; };
+		730D9913275C4B1E0034CEFD /* lite-model_aiy_vision_classifier_plants_V1_3.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = "lite-model_aiy_vision_classifier_plants_V1_3.tflite"; sourceTree = "<group>"; };
+		730D9914275C503A0034CEFD /* food_V1_1.tflite */ = {isa = PBXFileReference; lastKnownFileType = file; path = food_V1_1.tflite; sourceTree = "<group>"; };
+		A98440FB81D41BCE28832291 /* Pods_TensorFlowLiteiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorFlowLiteiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF97E89755A2739097C4759E /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CA6C01C515107FD1650FA1DF /* Pods_TensorFlowLiteiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorFlowLiteiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D453F26606ED4A8CD082BA4F /* Pods-TensorFlowLiteiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOS.debug.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOS/Pods-TensorFlowLiteiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		EF4D03FD6AC65708525FE780 /* Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89D9F53523320F44D001A53 /* Pods-TensorFlowLiteiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TensorFlowLiteiOSTests.release.xcconfig"; path = "Target Support Files/Pods-TensorFlowLiteiOSTests/Pods-TensorFlowLiteiOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A41F2E5733417E822CA6E2C /* Pods_TensorFlowLiteiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5D352EC1FF65A9CA00FA17B /* Pods_TensorFlowLiteiOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC6E1F2B38F3B8E67F1F139 /* Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +108,8 @@
 				730D98F1275C0A250034CEFD /* TensorFlowLiteiOSTests */,
 				730D98FB275C0A250034CEFD /* TensorFlowLiteiOSUITests */,
 				730D98D9275C0A240034CEFD /* Products */,
+				A19F86B737F09394E6C7C952 /* Pods */,
+				B58EC5077FE32BAD1896AF8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +129,12 @@
 				730D98DB275C0A240034CEFD /* AppDelegate.swift */,
 				730D98DD275C0A240034CEFD /* SceneDelegate.swift */,
 				730D98DF275C0A240034CEFD /* ViewController.swift */,
+				730D990F275C0C940034CEFD /* PixelBufferExtensions.swift */,
+				730D990B275C0AAA0034CEFD /* labels.txt */,
+				730D9914275C503A0034CEFD /* food_V1_1.tflite */,
+				730D9911275C4AF10034CEFD /* aiy_plants_V1_labelmap.csv */,
+				730D9913275C4B1E0034CEFD /* lite-model_aiy_vision_classifier_plants_V1_3.tflite */,
+				730D990C275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite */,
 				730D98E1275C0A240034CEFD /* Main.storyboard */,
 				730D98E4275C0A250034CEFD /* Assets.xcassets */,
 				730D98E6275C0A250034CEFD /* LaunchScreen.storyboard */,
@@ -127,6 +160,29 @@
 			path = TensorFlowLiteiOSUITests;
 			sourceTree = "<group>";
 		};
+		A19F86B737F09394E6C7C952 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D453F26606ED4A8CD082BA4F /* Pods-TensorFlowLiteiOS.debug.xcconfig */,
+				0382BADD02C83AF27E9288C1 /* Pods-TensorFlowLiteiOS.release.xcconfig */,
+				503E19D03D8A1A3872A6AA2A /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.debug.xcconfig */,
+				BF97E89755A2739097C4759E /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig */,
+				4C454FC4F92C8C4A8954B0E9 /* Pods-TensorFlowLiteiOSTests.debug.xcconfig */,
+				F89D9F53523320F44D001A53 /* Pods-TensorFlowLiteiOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B58EC5077FE32BAD1896AF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6C01C515107FD1650FA1DF /* Pods_TensorFlowLiteiOS.framework */,
+				EF4D03FD6AC65708525FE780 /* Pods_TensorFlowLiteiOS_TensorFlowLiteiOSUITests.framework */,
+				A98440FB81D41BCE28832291 /* Pods_TensorFlowLiteiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +190,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730D9902275C0A250034CEFD /* Build configuration list for PBXNativeTarget "TensorFlowLiteiOS" */;
 			buildPhases = (
+				A4F4848C8C61EF1544A1F3C9 /* [CP] Check Pods Manifest.lock */,
 				730D98D4275C0A240034CEFD /* Sources */,
 				730D98D5275C0A240034CEFD /* Frameworks */,
 				730D98D6275C0A240034CEFD /* Resources */,
@@ -151,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730D9905275C0A250034CEFD /* Build configuration list for PBXNativeTarget "TensorFlowLiteiOSTests" */;
 			buildPhases = (
+				599D8B6883E126534571E4A9 /* [CP] Check Pods Manifest.lock */,
 				730D98EA275C0A250034CEFD /* Sources */,
 				730D98EB275C0A250034CEFD /* Frameworks */,
 				730D98EC275C0A250034CEFD /* Resources */,
@@ -169,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 730D9908275C0A250034CEFD /* Build configuration list for PBXNativeTarget "TensorFlowLiteiOSUITests" */;
 			buildPhases = (
+				74DA32B4AB6C5828BD837194 /* [CP] Check Pods Manifest.lock */,
 				730D98F4275C0A250034CEFD /* Sources */,
 				730D98F5275C0A250034CEFD /* Frameworks */,
 				730D98F6275C0A250034CEFD /* Resources */,
@@ -232,8 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				730D98E8275C0A250034CEFD /* LaunchScreen.storyboard in Resources */,
+				730D990E275C0AAB0034CEFD /* mobilenet_quant_v1_224.tflite in Resources */,
 				730D98E5275C0A250034CEFD /* Assets.xcassets in Resources */,
 				730D98E3275C0A240034CEFD /* Main.storyboard in Resources */,
+				730D990D275C0AAB0034CEFD /* labels.txt in Resources */,
+				730D9912275C4AF20034CEFD /* aiy_plants_V1_labelmap.csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +315,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		599D8B6883E126534571E4A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorFlowLiteiOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74DA32B4AB6C5828BD837194 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4F4848C8C61EF1544A1F3C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TensorFlowLiteiOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		730D98D4275C0A240034CEFD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +391,7 @@
 			files = (
 				730D98E0275C0A240034CEFD /* ViewController.swift in Sources */,
 				730D98DC275C0A240034CEFD /* AppDelegate.swift in Sources */,
+				730D9910275C0C940034CEFD /* PixelBufferExtensions.swift in Sources */,
 				730D98DE275C0A240034CEFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +566,7 @@
 		};
 		730D9903275C0A250034CEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D453F26606ED4A8CD082BA4F /* Pods-TensorFlowLiteiOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,11 +575,13 @@
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TensorFlowLiteiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -462,6 +597,7 @@
 		};
 		730D9904275C0A250034CEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0382BADD02C83AF27E9288C1 /* Pods-TensorFlowLiteiOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,11 +606,13 @@
 				DEVELOPMENT_TEAM = MFN25KNUGJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TensorFlowLiteiOS/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -490,6 +628,7 @@
 		};
 		730D9906275C0A250034CEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C454FC4F92C8C4A8954B0E9 /* Pods-TensorFlowLiteiOSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +654,7 @@
 		};
 		730D9907275C0A250034CEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89D9F53523320F44D001A53 /* Pods-TensorFlowLiteiOSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +680,7 @@
 		};
 		730D9909275C0A250034CEFD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 503E19D03D8A1A3872A6AA2A /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -563,6 +704,7 @@
 		};
 		730D990A275C0A250034CEFD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF97E89755A2739097C4759E /* Pods-TensorFlowLiteiOS-TensorFlowLiteiOSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
